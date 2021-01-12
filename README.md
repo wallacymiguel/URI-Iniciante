@@ -1,2 +1,2 @@
 # URI-Iniciante
- Exercicios do site Uri
+ Exercicios do site URI
