@@ -1,2 +1,2 @@
 # URI-Iniciante
- Exercicios do site URI
+ Solved exercises of the website https://www.urionlinejudge.com.br/
