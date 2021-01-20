@@ -2,8 +2,15 @@
 o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser
 pago.
 
-Entrada O arquivo de entrada contém duas linhas de dados. Em cada linha haverá 3 valores, respectivamente dois
+Entrada
+O arquivo de entrada contém duas linhas de dados. Em cada linha haverá 3 valores, respectivamente dois
 inteiros e um valor com 2 casas decimais.
 
 Saída
-A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois pontos e um espaço após o "R$". O valor deverá ser apresentado com 2 casas após o ponto."""
+A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois
+pontos e um espaço após o "R$". O valor deverá ser apresentado com 2 casas após o ponto. """
+
+COD1, NUM1, VAL1 = map(float, input().split())
+COD2, NUM2, VAL2 = map(float, input().split())
+TOTAL = NUM1 * VAL1 + NUM2 * VAL2
+print(f'VALOR A PAGAR: R$ {TOTAL:.2f}')
